@@ -7,7 +7,8 @@ import Header from "./components/Header/Header"
 import Map from "./components/Map/Map"
 import Navbar from "./components/Navbar/Navbar"
 import Service from "./components/Service/Service"
-import Slider from "./components/Slider/Slider"
+// import Slider from "./components/Slider/Slider"
+import SliderImg from "./components/SliderImg/SliderImg"
 import Sponsor from "./components/Sponsor/Sponsor"
 import Supplier from "./components/Supplier/Supplier"
 
@@ -21,7 +22,8 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Supplier></Supplier>
-      <Slider></Slider>
+      {/* <Slider></Slider> */}
+      <SliderImg></SliderImg>
       <Service></Service>
       <Company></Company>
       <Sponsor></Sponsor>

@@ -9,6 +9,7 @@ const Banner = () => {
             We exist since 1975 on the oil and gas industry.
           </h1>
           <button className="font-poppins font-semibold text-[16px] text-white py-[13px] px-[40px] bg-orange mt-[30px] mb-[257px]">LEARN MORE</button>
+           {/* <button class="text-red hover:before:bg-redborder-red-500 relative z-[9999] h-[50px] w-40 overflow-hidden border border-red-500 bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full"><span class="relative z-10">Swipe</span></button> */}
         </div>
       </Container>
     </div>

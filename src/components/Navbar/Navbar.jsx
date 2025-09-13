@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png"
+import Button from "../../Layout/Button";
 import Container from "../../Layout/Container"
 
 const Navbar = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <a href="#">Blog</a>
                     </li>
                     <div>
-                    <button className="border-2 py-[13px] px-[30px]">Contact</button>
+                    <Button></Button>
                 </div>
                 </ul>
                 
