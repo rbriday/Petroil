@@ -40,16 +40,16 @@ const Footer = () => {
               </div>
             </div>
             <div className="mt-[20px] flex items-center">
-              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px]">
+              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px] hover:bg-white hover:text-orange ease-linear cursor-pointer">
                 <FaFacebookF />
               </div>
-              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px]">
+              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px] hover:bg-white hover:text-orange ease-linear cursor-pointer">
                 <FaTwitter />
               </div>
-              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px]">
+              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px] hover:bg-white hover:text-orange ease-linear cursor-pointer">
                 <FaLinkedinIn />
               </div>
-              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px]">
+              <div className="w-[30px] h-[30px] bg-orange rounded-full flex items-center justify-center text-white mr-[12px] hover:bg-white hover:text-orange ease-linear cursor-pointer">
                 <FaInstagram />
               </div>
             </div>
@@ -57,19 +57,19 @@ const Footer = () => {
           <div className="mt-[30px]">
             <ul>
               <li className="font-poppins font-bold text-white text-[16px] mb-[21px]">Company</li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Home</a></li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">About</a></li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Services</a></li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Gallery</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Home</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">About</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Services</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Gallery</a></li>
             </ul>
           </div>
           <div className="mt-[30px]">
             <ul>
               <li className="font-poppins font-bold text-white text-[16px] mb-[21px]">Others</li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Blog</a></li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Contact</a></li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Terms & Conditions</a></li>
-              <li className="font-poppins text-white text-[14px] mb-[15px]"><a href="#">Privacy Policy</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Blog</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Contact</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Terms & Conditions</a></li>
+              <li className="font-poppins text-white text-[14px] mb-[15px] hover:text-orange"><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
           <div className="mt-[30px]">
