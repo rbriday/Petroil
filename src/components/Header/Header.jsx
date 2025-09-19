@@ -11,18 +11,18 @@ const Header = () => {
   return (
     <div className="bg-[#282828] border-b-5 border-[#FFB800]">
       <Container>
-        <div className="flex justify-between text-white font-poppins text-[12px] py-[16px]">
-          <div className="flex space-x-[50px]">
+        <div className="md:flex justify-between text-white font-poppins text-[12px] py-[16px]">
+          <div className="flex py-[10px] md:py-0 space-x-[10px] md:space-x-[50px]">
             <div className="flex items-center space-x-[5px]">
               <MdOutlineMarkEmailUnread size={20} />
               <p>mail@yourcompany.com</p>
             </div>
-            <div className="relative flex items-center space-x-[5px] after:absolute after:content-[''] after:top-[3px] after:left-[-27px] after:w-[2px] after:h-[16px] after:bg-[#5C6A92]">
+            <div className="relative flex items-center space-x-[5px] md:after:absolute md:after:content-[''] after:top-[3px] after:left-[-27px] after:w-[2px] after:h-[16px] after:bg-[#5C6A92]">
               <FaPhoneVolume size={16} />
               <p>mail@yourcompany.com</p>
             </div>
           </div>
-          <div className="flex items-center space-x-[19px]">
+          <div className="flex items-center space-x-[19px] justify-center">
             <FaFacebookF size={16} className="hover:text-yellow-500 hover:cursor-pointer" />
             <FaTwitter size={16} className="hover:text-yellow-500 hover:cursor-pointer" />
             <FaLinkedin size={16} className="hover:text-yellow-500 hover:cursor-pointer" />

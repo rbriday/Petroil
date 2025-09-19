@@ -13,3 +13,6 @@
   --color-secondary: #6C6C6C;
   --color-orange: #F40404;
 }
+body{
+  overflow-x: hidden;
+}
